@@ -5,3 +5,5 @@ website. It eliminates the need to switch between different services, offering a
 experience for content creation, productivity, and innovation.
 This platform will cater to creators, marketers, and businesses who need powerful AI tools for
 generating images, videos, voiceovers, and animations all in one.
+
+All the API keys must be put using a .env file for your local environment.
