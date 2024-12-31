@@ -1,8 +1,7 @@
-# React + Vite
+# Unified AI Toolbox: All Your Creativity Tools in One Place
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The SaaS Tools Platform will provide users with access to multiple AI tools in one centralized
+website. It eliminates the need to switch between different services, offering a streamlined
+experience for content creation, productivity, and innovation.
+This platform will cater to creators, marketers, and businesses who need powerful AI tools for
+generating images, videos, voiceovers, and animations all in one.
