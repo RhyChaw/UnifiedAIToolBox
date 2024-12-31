@@ -9,18 +9,18 @@
   padding: 20px;
   height: 100%;
   overflow-y: auto;
-  background-color: #f4f4f9; /* Light background for contrast */
+  background-color: #f4f4f9;
 }
 
 .dashboard-boxes {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px; /* Spacing between boxes */
+  gap: 20px;
   margin-top: 20px;
 }
 
 .box {
-  flex: 1 1 calc(33.333% - 20px); /* Responsive 3-column layout */
+  flex: 1 1 calc(33.333% - 20px);
   max-width: calc(33.333% - 20px);
   min-width: 200px;
   padding: 20px;
