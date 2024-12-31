@@ -81,7 +81,7 @@ function ImageGen() {
           <h2 className="content-title">Image Generation (Flux)</h2>
           <p>Enter a description to generate an image:</p>
           <div className="input-area">
-            <input
+            <textarea
               type="text"
               className="input-box"
               value={input}

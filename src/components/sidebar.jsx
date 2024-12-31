@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { useLocation, Link } from 'react-router-dom'; // Use Link for React Router navigation
 import '../styles/sidebar.css';
 
 function Sidebar() {
+  const location = useLocation(); // Get the current route
   const menuItems = [
     { name: 'Dashboard', route: '/dashboard' },
     { name: 'Image Generation (Flux)', route: '/image-generation' },
@@ -15,8 +17,11 @@ function Sidebar() {
       <h1 className="sidebar-title">Unified AI Toolbox</h1>
       <ul className="sidebar-menu">
         {menuItems.map((item, index) => (
-          <li key={index} className="menu-item">
-            <a href={item.route}>{item.name}</a>
+          <li
+            key={index}
+            className={`menu-item ${location.pathname === item.route ? 'active' : ''}`}
+          >
+            <Link to={item.route}>{item.name}</Link>
           </li>
         ))}
       </ul>
